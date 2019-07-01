@@ -1,0 +1,106 @@
+/*NAVBAR*/
+.brand-logo{
+	vertical-align: middle;
+}
+
+.brand-logo img{
+	height: 70px;
+}
+
+.logo img{
+	height: 30px;
+}
+
+/*Cards index*/
+.card-image img{
+	height: 300px;
+}
+
+.card .acomodando{
+	margin: 30px;
+}
+
+/*Titulo index*/
+h3, h2, h4{
+	font-family: 'Archivo Black', sans-serif;
+}
+
+/*Acomodando la imagen para que se muestre a la misma altura 
+que el texto*/
+.acomodo{
+	vertical-align: middle;
+}
+
+/*Slider index*/
+.slider{
+	height: 50vh;
+}
+/*cambiando tamaño de galeria*/
+.tamaño{
+	height: 500vh;
+	width: 800vh;
+}
+
+/*CAMBIOS TABS*/
+.tabs{
+	margin-top: 30px;
+}
+.tabs .tab a {
+  color: grey;
+  /*Cambia Color de Texto*/
+}
+
+.tabs .tab a:hover {
+  color:lightblue;
+  /*Custom Color On Hover*/
+}
+
+.tabs .tab a:focus.active {
+  color: grey;
+  /*Text Color cuando esta activo*/
+  background-color: white;
+  /*Background Color cuando esta activo*/
+}
+
+.tabs .indicator {
+  background-color: grey;
+  /*barrita de abajo*/
+}
+
+.margen{
+	margin: 30px;
+}
+
+/*iframe responsivo*/
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+.embed-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*FOOTER*/
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+footer > ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
